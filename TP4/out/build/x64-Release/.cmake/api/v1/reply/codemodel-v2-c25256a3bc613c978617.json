@@ -1,0 +1,225 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "external/glew-cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.glew-cmake-RelWithDebInfo-e0876ec03fa6d3b6aaba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/glew-cmake",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "external/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.glfw-RelWithDebInfo-236736d97636bf3be2fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "external/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.glfw.src-RelWithDebInfo-b150cf7a31f153dbb42a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/glfw/src",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "external/glm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-external.glm-RelWithDebInfo-c35beecffdababf19b76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/glm"
+				},
+				{
+					"build" : "external/glm/glm",
+					"jsonFile" : "directory-external.glm.glm-RelWithDebInfo-abc7302ed9fa59a98343.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "external/glm/glm"
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OpenGLProgram",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-glfw-RelWithDebInfo-76d6f8da128ba3304569.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglew_shared::@fc7cbd6ba58880f755cb",
+					"jsonFile" : "target-libglew_shared-RelWithDebInfo-3e4bdb5bab013900d623.json",
+					"name" : "libglew_shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglew_static::@fc7cbd6ba58880f755cb",
+					"jsonFile" : "target-libglew_static-RelWithDebInfo-3c39df947c5796097db9.json",
+					"name" : "libglew_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opengl_program::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opengl_program-RelWithDebInfo-82a6b5ccde58ba27dbf7.json",
+					"name" : "opengl_program",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@691b517da5fa0f694cd4",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-7a296daff8168d8076ab.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-update_mappings-RelWithDebInfo-42cf3a2a46558fd29867.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Armand/Documents/Projet_OpenGL/cg_intro_public-branch/TP4_material/out/build/x64-Release",
+		"source" : "C:/Users/Armand/Documents/Projet_OpenGL/cg_intro_public-branch/TP4_material"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

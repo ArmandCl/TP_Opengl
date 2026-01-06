@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+2 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/Armand/Documents/Projet_OpenGL/cg_intro_public-branch/TP4_material/out/build/x64-Release/external/glew-cmake/CMakeFiles/libglew_shared.dir/embed.manifest"
